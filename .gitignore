@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data and results
+*.csv
+*.json
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Project specific - exclude script folders
+1_fllter/
+2_json/
+3_fig/
+4_feature/
+5_fig2/
+6_modol/
+7_gnn/
+8_threshold/
+10_tongjihunxiao/
+cnn_threshold_plots/
+sfc_ot_threshold_plots/
+热力图/
+
+# Keep only documentation and images
+!images/
+!*.md
+
+# Exclude duplicate image files in root
+apk.pdf
+apk.png
+apk.svg
+model_vs_ot_scatter.svg
+appendix1.md

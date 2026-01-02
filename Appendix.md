@@ -147,9 +147,11 @@ Since none of these systems provide public implementations, we re-implement thei
 
 ### APK File Structure
 
-**Note**: The APK structure diagram is available in PDF format: ![apk](D:\xwechat_files\kevin995325198_9d8e\msg\file\2025-12\script\script\apk.png)
+![APK File Structure](images/apk.png)
 
 *Overview of the decompiled APK file structure and the corresponding critical resources extracted for feature engineering. Key directories include `res` for visual assets, `lib` for native code, and `smali` for Smali code.*
+
+**Note**: PDF version is also available at [images/apk.pdf](images/apk.pdf)
 
 ### Code Obfuscation Techniques
 
@@ -198,6 +200,6 @@ The following table lists the code obfuscation techniques:
 
 The following figure compares the OT-based and GNN-based graph similarity scoring:
 
-![Graph Similarity Comparison](model_vs_ot_scatter.svg)
+![Graph Similarity Comparison](images/model_vs_ot_scatter.svg)
 
 *Comparison of OT-based and GNN-based graph similarity scoring. The OT-based method maintains clearer separation between positive and negative pairs.*
